@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const btnWsp = document.createElement("a");
-      btnWsp.href = `https://wa.me/51977509592?text=Hola,%20quiero%20reportar%20que%20faltan%20insumos%20para%20el%20plato%20*${encodeURIComponent(plato.nombre)}*`;
+      btnWsp.href = `https://wa.me/51998199885?text=Hola,%20quiero%20reportar%20que%20faltan%20insumos%20para%20el%20plato%20*${encodeURIComponent(plato.nombre)}*`;
       btnWsp.classList.add("btn-wsp");
       btnWsp.target = "_blank";
       btnWsp.rel = "noopener";
